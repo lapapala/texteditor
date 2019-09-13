@@ -12,11 +12,27 @@ function changeBg() {
     }
 }
 
-function fontSizeUp() {
+function smallFontSize() {
     let text = document.getElementsByClassName("text");
 
     for (var i = 0; i < text.length; i++){
-        text[i].style.fontSize = text[i].style.fontSize + "2px";
+        text[i].style.fontSize = "20px";
+
+    }
+}
+
+function mediumFontSize() {
+    let text = document.getElementsByClassName("text");
+
+    for (var i = 0; i < text.length; i++){
+        text[i].style.fontSize = "50px";
+    }
+}
+function largeFontSize() {
+    let text = document.getElementsByClassName("text");
+
+    for (var i = 0; i < text.length; i++){
+        text[i].style.fontSize ="100px";
     }
 }
 
